@@ -1,0 +1,98 @@
+a{
+    text-decoration: none;
+}
+.bg-body{
+    background-color: #151a30!important;
+}
+.bg-header{
+    background-color: #222b45!important;
+}
+.bg-box{
+    background-color: #192038!important;
+}
+header ul li a{
+    font-weight: 400;
+}
+.black{
+    color: black!important;
+}
+.font-open{
+    font-family: 'Open Sans';
+    font-weight: 800!important;
+}
+.menu ul li{
+    font-size: 16px;
+    line-height: 40px;
+}
+.menu ul li a i{
+    font-size: 20px;
+}
+.box1{
+    height: 73px;
+}
+.box i{
+    font-size: 30px;
+}
+.bg-color{
+    background: linear-gradient(90deg, rgba(255,112,141,1) 0%, rgba(255,61,113,1) 100%);
+}
+.up{
+    color: #00d68f;
+}
+.down{
+    color: #ff3d71;
+}
+.box-3{
+    width: 30%;
+    height: 22px;
+}
+.box-7{
+    width: 70%;
+    height: 22px;
+}
+.box-5{
+    width: 55%;
+    height: 22px;
+}
+footer span a i{
+    font-size: 28px;
+}
+footer span a:hover i{
+    transition: all 1s;
+    color: white!important;
+}
+.traffic{
+    overflow-y: scroll;
+    height: 400px;
+}
+.user{
+    overflow-y: scroll;
+    height: 500px;  
+}
+.scrollbar{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.scrollbar-1{
+    height: 100vh;
+    overflow-y: scroll;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #2e4079;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #67749e;
+}
+.menu{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#chart {
+    max-width: 650px;
+}
+header{
+    z-index: 9999999999999;
+}

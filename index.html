@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-body">
+
+    <header class="bg-header position-sticky top-0 py-3 shadow ">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <ul class="list-unstyled m-0 d-flex align-items-center">
+                        <li class="border-end border-secondary">
+                            <a href="#" class="text-white h5 m-0 me-4 text-muted">
+                                <i class="bi bi-list"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="h2 text-white m-0 mx-4">ngx-admin</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <select class="form-select bg-body text-white border-primary"
+                                    aria-label="Default select example">
+                                    <option selected>Dark</option>
+                                    <option value="1">Light</option>
+                                </select>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-8 d-flex align-items-center">
+                    <ul class="list-unstyled m-0 d-flex justify-content-end align-items-center list-inline">
+                        <li class="text-white list-inline-item">
+                            Support us:
+                        </li>
+                        <li class="list-inline-item">
+                            <button class="rounded border-0 d-flex"><i class="bi bi-github me-1"></i>Star</button>
+                        </li>
+                        <li class="list-inline-item">
+                            <button class="rounded border-0 me-4">24,374</button>
+                        </li>
+                        <li class="d-flex list-inline-item border-start border-secondary">
+                            <i class="bi bi-download text-muted ms-4"></i><span
+                                class="text-white ms-2 me-4">470.000</span>
+                        </li>
+                        <li class="border-start list-inline-item text-muted border-secondary">
+                            <button class="border-0 d-flex bg-header text-muted">
+                                <i class="bi bi-envelope me-1"></i>
+                                <a href="#" class="text-muted"> contact@akveo.com </a>
+                            </button>
+                        </li>
+                        <li class="border-start list-inline-item text-muted border-secondary">
+                            <i class="bi bi-search mx-4"></i>
+                        </li>
+                        <li class="border-start list-inline-item text-muted border-secondary">
+                            <i class="bi bi-envelope mx-4"></i>
+                        </li>
+                        <li class="border-start list-inline-item border-end text-muted border-secondary ">
+                            <i class="bi bi-bell mx-4"></i>
+                        </li>
+
+                        <img src="assets/img/nick.webp" width="4%" class="rounded-circle d-inline ms-3" alt="">
+
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white ms-2">
+                                Nick Jones
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid p-0 d-flex">
+            <div class="col-2 menu scrollbar-1 bg-header ">
+                <ul class="list-unstyled">
+                    <li class="border-bottom border-secondary border-1 px-4 py-2">
+                        <a href="#" class="text-primary"><i class="bi bi-cart me-2"></i>E-commerce</a>
+                    </li>
+                    <li class="border-bottom border-secondary border-1 px-4 py-2">
+                        <a href="#" class="text-white"><i class="bi bi-house me-2 text-muted"></i>IoT Dashboard</a>
+                    </li>
+                    <li class="text-muted border-bottom border-secondary border-1 px-4 py-2">
+                        FEATURES
+                    </li>
+                    <li>
+                        <div class="accordion " id="accordionExample">
+                            <div class="accordion-item border-0">
+                                <h2 class="accordion-header border-bottom border-secondary border-1" id="headingOne">
+                                    <button class="accordion-button bg-header" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">
+                                        <a href="#" class="text-white"><i
+                                                class="bi bi-layout-text-sidebar text-muted pe-3"></i>Layout</a>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body bg-header py-0 px-4">
+                                        <ul class="slide m-0 p-0 ">
+                                            <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                    class="text-white">Stepper</a></li>
+                                            <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                    class="text-white">List</a></li>
+                                            <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                    class="text-white">Infinite List</a></li>
+                                            <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                    class="text-white">Accordion </a></li>
+                                            <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                    class="text-white">Tabs </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-a">
+                                            <a href="#" class="text-white"><i
+                                                    class="fa-solid fa-pen text-muted pe-3"></i>Forms</a>
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne-a" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Form Inputs</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Form Layouts</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Buttons</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Datepicker </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-b"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-grid-3x3-gap text-white-50 pe-3"></i>UI Features</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-b" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Grid</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Icons</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Typography</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Animated Searches </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-c"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-window text-white-50 pe-3"></i>Modal & Overlays</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-c" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3  border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Dialog</a></li>
+                                                <li class="py-3  border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Window</a></li>
+                                                <li class="py-3  border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Popover</a></li>
+                                                <li class="py-3  border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Toastr</a></li>
+                                                <li class="py-3  border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Tooltip</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header  " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-d"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-chat-dots text-white-50 pe-3"></i>Modal & Overlays</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-d" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Calendar</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Progress Bar</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Spinner</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Alert</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Calendar Kit</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Chat</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-e"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-map text-white-50 pe-3"></i>Maps</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-e" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Google Maps</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Leaflet Maps</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Bubble Maps</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Search Maps</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header " type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-f"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-pie-chart text-white-50 pe-3"></i>Charts</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-f" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Echarts</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Charts.js</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">D3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-g"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-fonts text-white-50 pe-3"></i>Editors</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-g" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">TinyMCE</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">CKEditor</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-h"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-grid text-white-50 pe-3"></i>Tables & Data</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-h" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Smart Table</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Tree Grid</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-i"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="bi bi-shuffle text-white-50 pe-3"></i>Miscellaneous</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-i" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">404</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item border-0">
+                                    <h2 class="accordion-header border-bottom border-secondary border-1"
+                                        id="headingOne">
+                                        <button class="accordion-button bg-header" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne-k"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <a href="#" class="text-white"><i
+                                                    class="fa-solid fa-lock text-white-50 pe-3"></i>Auth</a>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne-k" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body bg-header py-0 px-4">
+                                            <ul class="slide m-0 p-0 ">
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Login</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Register</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Request Password</a></li>
+                                                <li class="py-3 border-1 border-bottom border-secondary"><a href="#"
+                                                        class="text-white">Reset Password</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10 scrollbar ">
+
+               <div class="col-12 p-5">
+                <section>
+                    <div class="col-12 m-0 row justify-content-between">
+                        <div class="col-6 row ">
+                            <div class="box row bg-header align-items-center justify-content-center rounded">
+                                <div class="col-2 p-2">
+                                    <div class="box1 row align-items-center text-center rounded-3 bg-primary">
+                                        <i class="fa-solid fa-swatchbook text-white"></i>
+                                    </div>
+                                </div>
+                                <div class="col-7 p-0">
+                                    <span class="h5  row justify-content-center text-white m-0 ">Hire us to customize
+                                        ngx-admin</span>
+                                </div>
+    
+                                <div class="col-3 p-0">
+                                    <button class="py-2 px-3 rounded border-0 bg-color text-white fw-bold"> CONTACT US
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 row ">
+                            <div class="box row bg-header align-items-center justify-content-center rounded">
+                                <div class="col-2 p-2">
+                                    <div class="box1 row align-items-center text-center rounded-3 bg-primary">
+                                        <i class="fa-solid fa-suitcase text-white"></i>
+                                    </div>
+                                </div>
+                                <div class="col-7 p-0">
+                                    <span class="h5  row justify-content-center text-white m-0 px-3">Documentation and
+                                        customization articles</span>
+                                </div>
+    
+                                <div class="col-3 p-0">
+                                    <button class="py-2 px-3 rounded border-0 bg-color text-white fw-bold"> CONTACT US
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </section>
+
+                <section>
+                    <div class="col-12 d-flex justify-content-center py-5">
+                        <div class="col-6 row justify-content-between">
+                            <div class="col-6 row p-0 bg-header rounded">
+                                <div class="box d-flex border-bottom border-dark justify-content-between p-4">
+                                    <span class="text-white">$Profit</span>
+                                    <span class="text-white"><i class="bi bi-caret-right-fill"></i></span>
+                                </div>
+                                <div id="container" style="height: 250px"></div>
+                            </div>
+                            <div class="col-6 row p-0 bg-header rounded">
+                                <div class="box d-flex border-bottom border-dark justify-content-between p-4">
+                                    <span class="text-white"> <a href="#">
+                                        <select class="form-select bg-body text-white border-primary"
+                                            aria-label="Default select example">
+                                            <option selected>Bitcoin</option>
+                                            <option value="1">Tether</option>
+                                            <option value="2">Ethereum</option>
+                                        </select>
+                                    </a></span>
+                                    <span class="text-white"><i class="bi bi-caret-right-fill"></i></span>
+                                </div>
+                                <div id="container-1" style="height: 250px"></div>
+                            </div>
+                            <div class="col-12 traffic bg-header mt-2 p-0">
+                                <div class="box d-flex border-bottom border-dark align-items-center justify-content-between p-4">
+                                    <span class="text-white"> Traffic</span>
+                                    <span class="text-white d-flex">
+                                        <a href="#">
+                                            <select class="form-select bg-body text-white border-primary"
+                                                aria-label="Default select example">
+                                                <option selected>week</option>
+                                                <option value="1">month</option>
+                                                <option value="2">year</option>
+                                            </select>
+                                        </a>
+                                        <i class="bi bi-caret-up-fill ps-4"></i>
+                                    </span>
+                                </div>
+                                <div class="week-menu ">
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Mon</span>
+                                        <span class="text-white">259</span>
+                                        <span class="down"><i class="bi bi-caret-down-fill pe-1"></i>5%</span>
+                                        <span class="text-white-50">
+                                            Sun
+                                            Mon
+                                        </span>
+                                    </div>
+                                    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Tue</span>
+                                        <span class="text-white">780</span>
+                                        <span class="down"><i class="bi bi-caret-down-fill pe-1"></i>3%</span>
+                                        <span class="text-white-50">
+                                            Mon
+                                            Tue
+                                        </span>
+                                    </div>
+    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Wed</span>
+                                        <span class="text-white">734</span>
+                                        <span class="up"><i class="bi bi-caret-up-fill pe-1"></i>39%</span>
+                                        <span class="text-white-50">
+                                            Tue
+                                            Wed
+                                        </span>
+                                    </div>
+    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Thu</span>
+                                        <span class="text-white">514</span>
+                                        <span class="down"><i class="bi bi-caret-down-fill pe-1"></i>59%</span>
+                                        <span class="text-white-50">
+                                            Wed
+                                            Thu
+                                        </span>
+                                    </div>
+    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Fri</span>
+                                        <span class="text-white">319</span>
+                                        <span class="up"><i class="bi bi-caret-up-fill pe-1"></i>31%</span>
+                                        <span class="text-white-50">
+                                            The
+                                            Fri
+                                        </span>
+                                    </div>
+    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Sat</span>
+                                        <span class="text-white">19</span>
+                                        <span class="up"><i class="bi bi-caret-up-fill pe-1"></i>19%</span>
+                                        <span class="text-white-50">
+                                            Fri
+                                            Sat
+                                        </span>
+                                    </div>
+    
+                                    <div class="week border-bottom border-secondary p-3 d-flex justify-content-between">
+                                        <span class="text-white">Sun</span>
+                                        <span class="text-white">663</span>
+                                        <span class="down"><i class="bi bi-caret-down-fill pe-1"></i>49%</span>
+                                        <span class="text-white-50">
+                                            Sat
+                                            Sun
+                                        </span>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 ps-5 justify-content-end">
+                            <div class="col-12 row bg-header m-0">
+                                <div class="col-6 py-3"> 
+                                    <span class="row justify-content-center text-primary fw-bold">ORDERS</span>
+                                </div> 
+                                <div class="col-6 py-3">
+                                   <span class=" row justify-content-center text-white-50 fw-bold"> PROFIT</span>
+                                </div>
+                            </div>
+                            <div class="col-12 bg-box row text-white m-0 p-3">
+                                <div class="col-3">
+                                    <h6>Marketplace</h6>
+                                    <span class="fw-bold">3654</span>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Last Month</h6>
+                                    <span class="fw-bold">946</span>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Last Week</h6>
+                                    <span class="fw-bold">654</span>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Today</h6>
+                                    <span class="fw-bold">230</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div id="app"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="col-12 my-3 row">
+                        <div class="col-9 row">
+                          <div class="col-7">
+                            <div id="chartdiv"></div>
+                          </div>
+                          <div class="col-5">
+                            <div id="container-3" style="height: 500px"></div>
+                          </div>
+                        </div>
+                        <div class="col-3 bg-box">
+                            <div class="col-12 text-white py-3 px-5">
+                                <h6 class="m-0">Today’s Profit</h6>
+                                <h2 class="m-0">572,900</h2>
+                                <div class="box bg-header rounded my-2">
+                                    <div class="box-7 bg-body rounded"></div>
+                                </div>
+                                <span class="text-muted">Better than last week (70%)</span>
+                                </div>
+                            <div class="col-12 text-white py-3 px-5">
+                                <h6 class="m-0">New Orders</h6>
+                                <h2 class="m-0">6,378</h2> 
+                                <div class="box bg-header rounded my-2">
+                                    <div class="box-3 bg-body rounded"></div>
+                                </div>
+                                <span class="text-muted">Better than last week (30%)</span>
+                            </div>
+                            <div class="col-12 text-white py-3 px-5">
+                                <h6 class="m-0">New Comments</h6> 
+                                <h2 class="m-0">200</h2> 
+                                <div class="box bg-header rounded my-2">
+                                    <div class="box-5 bg-body rounded"></div>
+                                </div>
+                                <span class="text-muted">Better than last week (55%)</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+   
+                <section>
+                    <div class="col-12 row my-3">
+                        <div class="col-9">
+                            <div id="app1"></div>
+                        </div>
+                        <div class="col-3 user bg-box rounded p-0">
+                            <div class="col-12  d-flex justify-content-between align-items-center border-bottom border-dark text-white py-3 px-5">
+                              <span>User Activity</span>
+                              <span class="text-white d-flex">
+                                <a href="#">
+                                    <select class="form-select bg-body text-white border-dark"
+                                        aria-label="Default select example">
+                                        <option selected>month</option>
+                                        <option value="1">week</option>
+                                        <option value="2">year</option>
+                                    </select>
+                                </a>
+                            </span>
+                            </div>
+                            <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                               <span>1 Apr</span>
+                               <span class="up">
+                                <p class="m-0 text-muted">Pages Visit</p>
+                                829
+                               </span>
+                               <span class="up">
+                                <p class="m-0 text-muted">New visits, %</p>
+                                <i class="bi bi-caret-up-fill pe-1"></i>27%
+                               </span>
+                            </div>
+                            <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>2 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 531
+                                </span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-up-fill pe-1"></i>23%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>3 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 228
+                                </span>
+                                <span class="down">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-down-fill pe-1"></i>9%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>4 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 643
+                                </span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-up-fill pe-1"></i>42%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>5 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 22
+                                </span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-up-fill pe-1"></i>82%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>6 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 128
+                                </span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-up-fill pe-1"></i>74%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>7 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 522
+                                </span>
+                                <span class="down">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-down-fill pe-1"></i>92%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>8 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 343
+                                </span>
+                                <span class="down">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-down-fill pe-1"></i>77%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>9 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 315
+                                </span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-up-fill pe-1"></i>43%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>10 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 36
+                                </span>
+                                <span class="down">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-down-fill pe-1"></i>80%
+                                </span>
+                             </div>
+                             <div class="col-12 d-flex justify-content-between align-items-center text-white py-3 px-5">
+                                <span>11 Apr</span>
+                                <span class="up">
+                                 <p class="m-0 text-muted">Pages Visit</p>
+                                 951
+                                </span>
+                                <span class="down">
+                                 <p class="m-0 text-muted">New visits, %</p>
+                                 <i class="bi bi-caret-down-fill pe-1"></i>56%
+                                </span>
+                             </div>
+                        </div>
+                    </div>
+                </section>
+               </div>
+               <footer class="d-flex justify-content-between align-items-center bg-header px-4 py-3">
+                <span class="text-white">RWN.Abhi Thummar</span>
+                <span>
+                    <a href="#"><i class="bi bi-github px-2 text-muted"></i></a>
+                    <a href="#"><i class="bi bi-facebook px-2 text-muted"></i></a>
+                    <a href="#"><i class="bi bi-twitter px-2 text-muted"></i></a>
+                    <a href="#"><i class="bi bi-linkedin px-2 text-muted"></i></a>
+                </span>
+            </footer>
+            </div>
+           
+            
+            
+        </div>
+       
+        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/react@16.12/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@16.12/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prop-types@15.7.2/prop-types.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-apexcharts@1.3.6/dist/react-apexcharts.iife.min.js"></script>
+
+    <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.4.2/dist/echarts.min.js"></script>
+    <script type="text/javascript">
+        var dom = document.getElementById('container');
+        var myChart = echarts.init(dom, null, {
+            renderer: 'canvas',
+            useDirtyRect: false
+        });
+        var app = {};
+
+        var option;
+
+        var xAxisData = [];
+        var data1 = [];
+        var data2 = [];
+        for (var i = 0; i < 100; i++) {
+            xAxisData.push('A' + i);
+            data1.push((Math.sin(i / 5) * (i / 5 - 10) + i / 6) * 5);
+            data2.push((Math.cos(i / 5) * (i / 5 - 10) + i / 6) * 5);
+        }
+        option = {
+         
+            toolbox: {
+                // y: 'bottom',
+            },
+            tooltip: {},
+            xAxis: {
+                data: xAxisData,
+                splitLine: {
+                    show: false
+                }
+            },
+            yAxis: {},
+            series: [
+                {
+                    name: 'bar',
+                    type: 'bar',
+                    data: data1,
+                    emphasis: {
+                        focus: 'series'
+                    },
+                    animationDelay: function (idx) {
+                        return idx * 10;
+                    }
+                },
+                {
+                    name: 'bar2',
+                    type: 'bar',
+                    data: data2,
+                    emphasis: {
+                        focus: 'series'
+                    },
+                    animationDelay: function (idx) {
+                        return idx * 10 + 100;
+                    }
+                }
+            ],
+            animationEasing: 'elasticOut',
+            animationDelayUpdate: function (idx) {
+                return idx * 5;
+            }
+        };
+
+        if (option && typeof option === 'object') {
+            myChart.setOption(option);
+        }
+
+        window.addEventListener('resize', myChart.resize);
+    </script>
+    <script type="text/javascript">
+        var dom = document.getElementById('container-1');
+        var myChart = echarts.init(dom, null, {
+          renderer: 'canvas',
+          useDirtyRect: false
+        });
+        var app = {};
+        
+        var option;
+    
+        let base = +new Date(1988, 9, 3);
+    let oneDay = 24 * 3600 * 1000;
+    let data = [[base, Math.random() * 300]];
+    for (let i = 1; i < 20000; i++) {
+      let now = new Date((base += oneDay));
+      data.push([+now, Math.round((Math.random() - 0.5) * 20 + data[i - 1][1])]);
+    }
+    option = {
+      tooltip: {
+        trigger: 'axis',
+        position: function (pt) {
+          return [pt[0], '10%'];
+        }
+      },
+      xAxis: {
+        type: 'time',
+        boundaryGap: false
+      },
+      yAxis: {
+        type: 'value',
+        boundaryGap: [0, '100%']
+      },
+      dataZoom: [
+        {
+          type: 'inside',
+          start: 0,
+          end: 20
+        },
+        {
+          start: 0,
+          end: 20
+        }
+      ],
+      series: [
+        {
+          name: 'Fake Data',
+          type: 'line',
+          smooth: true,
+          symbol: 'none',
+          areaStyle: {},
+          data: data
+        }
+      ]
+    };
+    
+        if (option && typeof option === 'object') {
+          myChart.setOption(option);
+        }
+    
+        window.addEventListener('resize', myChart.resize);
+    </script>
+    <script type="text/babel">
+        class ApexChart extends React.Component {
+          constructor(props) {
+            super(props);
+  
+            this.state = {
+            
+              series: [{
+                name: 'series1',
+                data: [31, 40, 28, 51, 42, 109, 100]
+              }, {
+                name: 'series2',
+                data: [11, 32, 45, 32, 34, 52, 41]
+              }],
+              options: {
+                chart: {
+                  height: 600,
+                  type: 'area'
+                },
+                dataLabels: {
+                  enabled: false
+                },
+                stroke: {
+                  curve: 'smooth'
+                },
+                xaxis: {
+                  type: 'datetime',
+                  categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                },
+                tooltip: {
+                  x: {
+                    format: 'dd/MM/yy HH:mm'
+                  },
+                },
+              },
+            
+            
+            };
+          }
+  
+        
+  
+          render() {
+            return (
+              <div>
+                <div id="chart">
+                  <ReactApexChart options={this.state.options} series={this.state.series} type="area" width={660} height={600} />
+                </div>
+                <div id="html-dist"></div>
+              </div>
+            );
+          }
+        }
+  
+        const domContainer = document.querySelector('#app');
+        ReactDOM.render(React.createElement(ApexChart), domContainer);
+      </script>
+
+<script type="text/javascript">
+  var dom = document.getElementById('container-3');
+  var myChart = echarts.init(dom, null, {
+    renderer: 'canvas',
+    useDirtyRect: false
+  });
+  var app = {};
+  
+  var option;
+
+  option = {
+dataset: {
+  source: [
+    ['score', 'amount', 'product'],
+    [89.3, 58212, 'Matcha Latte'],
+    [57.1, 78254, 'Milk Tea'],
+    [74.4, 41032, 'Cheese Cocoa'],
+    [50.1, 12755, 'Cheese Brownie'],
+    [89.7, 20145, 'Matcha Cocoa'],
+    [68.1, 79146, 'Tea'],
+    [19.6, 91852, 'Orange Juice'],
+    [10.6, 101852, 'Lemon Juice'],
+    [32.7, 20112, 'Walnut Brownie']
+  ]
+},
+grid: { containLabel: true },
+xAxis: { name: 'amount' },
+yAxis: { type: 'category' },
+series: [
+  {
+    type: 'bar',
+    encode: {
+      // Map the "amount" column to X axis.
+      x: 'amount',
+      // Map the "product" column to Y axis
+      y: 'product'
+    }
+  }
+]
+};
+
+  if (option && typeof option === 'object') {
+    myChart.setOption(option);
+  }
+
+  window.addEventListener('resize', myChart.resize);
+</script>
+
+<script type="text/babel">
+    class ApexChart extends React.Component {
+      constructor(props) {
+        super(props);
+
+        this.state = {
+        
+          series: [{
+            name: 'north',
+            data: [{
+                x: 1996,
+                y: 322
+              },
+              {
+                x: 1997,
+                y: 324
+              },
+              {
+                x: 1998,
+                y: 329
+              },
+              {
+                x: 1999,
+                y: 342
+              },
+              {
+                x: 2000,
+                y: 348
+              },
+              {
+                x: 2001,
+                y: 334
+              },
+              {
+                x: 2002,
+                y: 325
+              },
+              {
+                x: 2003,
+                y: 316
+              },
+              {
+                x: 2004,
+                y: 318
+              },
+              {
+                x: 2005,
+                y: 330
+              },
+              {
+                x: 2006,
+                y: 355
+              },
+              {
+                x: 2007,
+                y: 366
+              },
+              {
+                x: 2008,
+                y: 337
+              },
+              {
+                x: 2009,
+                y: 352
+              },
+              {
+                x: 2010,
+                y: 377
+              },
+              {
+                x: 2011,
+                y: 383
+              },
+              {
+                x: 2012,
+                y: 344
+              },
+              {
+                x: 2013,
+                y: 366
+              },
+              {
+                x: 2014,
+                y: 389
+              },
+              {
+                x: 2015,
+                y: 334
+              }
+            ]
+          }, {
+            name: 'south',
+            data: [
+              {
+                x: 1996,
+                y: 162
+              },
+              {
+                x: 1997,
+                y: 90
+              },
+              {
+                x: 1998,
+                y: 50
+              },
+              {
+                x: 1999,
+                y: 77
+              },
+              {
+                x: 2000,
+                y: 35
+              },
+              {
+                x: 2001,
+                y: -45
+              },
+              {
+                x: 2002,
+                y: -88
+              },
+              {
+                x: 2003,
+                y: -120
+              },
+              {
+                x: 2004,
+                y: -156
+              },
+              {
+                x: 2005,
+                y: -123
+              },
+              {
+                x: 2006,
+                y: -88
+              },
+              {
+                x: 2007,
+                y: -66
+              },
+              {
+                x: 2008,
+                y: -45
+              },
+              {
+                x: 2009,
+                y: -29
+              },
+              {
+                x: 2010,
+                y: -45
+              },
+              {
+                x: 2011,
+                y: -88
+              },
+              {
+                x: 2012,
+                y: -132
+              },
+              {
+                x: 2013,
+                y: -146
+              },
+              {
+                x: 2014,
+                y: -169
+              },
+              {
+                x: 2015,
+                y: -184
+              }
+            ]
+          }],
+          options: {
+            chart: {
+              type: 'area',
+              height: 300
+            },
+            dataLabels: {
+              enabled: false
+            },
+            stroke: {
+              curve: 'straight'
+            },
+            
+            xaxis: {
+              type: 'datetime',
+              axisBorder: {
+                show: false
+              },
+              axisTicks: {
+                show: false
+              }
+            },
+            yaxis: {
+              tickAmount: 4,
+              floating: false,
+            
+              labels: {
+                style: {
+                  colors: '#8e8da4',
+                },
+                offsetY: -7,
+                offsetX: 0,
+              },
+              axisBorder: {
+                show: false,
+              },
+              axisTicks: {
+                show: false
+              }
+            },
+            fill: {
+              opacity: 0.5
+            },
+            tooltip: {
+              x: {
+                format: "yyyy",
+              },
+              fixed: {
+                enabled: false,
+                position: 'topRight'
+              }
+            },
+            grid: {
+              yaxis: {
+                lines: {
+                  offsetX: -30
+                }
+              },
+              padding: {
+                left: 20
+              }
+            }
+          },
+        
+        
+        };
+      }
+
+    
+
+      render() {
+        return (
+          <div>
+            <div id="chart">
+              <ReactApexChart options={this.state.options} series={this.state.series} type="area" width={1050} height={450}/>
+            </div>
+            <div id="html-dist"></div>
+          </div>
+        );
+      }
+    }
+
+    const domContainer1 = document.querySelector('#app1');
+    ReactDOM.render(React.createElement(ApexChart), domContainer1);
+  </script>
+
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/map.js"></script>
+  <script src="assets/js/worldLow.js"></script>
+  <script src="assets/js/Animated.js"></script>
+  <script src="assets/js/index.1.js"></script>
+
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
